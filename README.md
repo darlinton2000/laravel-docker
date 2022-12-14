@@ -1,12 +1,10 @@
 # Laravel + Docker
 
-## Este projeto é um template para novos projetos que necessitem usar Laravel + Docker
+## Este projeto é um template para projetos que necessitem usar Laravel + Docker
 
-~~~
-Versão: 1.0
-~~~
-
-> Autor: [Danilo Ferreira Sousa](https://github.com/daniloferreirasousa)
+>Versão: 1.0
+>
+>Autor: **[Danilo Ferreira Sousa](https://github.com/daniloferreirasousa)**
 
 ### Instruções:
 
@@ -19,7 +17,8 @@ Versão: 1.0
 
 `docker-compose up -d`
 
-Obs: Se estiver usando windows, a maquina virtual deve estar ligada rodando ubuntu para possa acessar o projeto
+>Obs: Se estiver usando windows, é necessário que o **Docker Toolbox** ou **Doker Desktop** instalado.
+
 #### - Para ver o ip da sua maquina virtual com o seguinte comando:
 
 `docker-machine ip`
