@@ -15,7 +15,10 @@
 
 #### - Faça o download do repositório
 
-#### - Altere as seguinte linhas de acordo com suas definições no seu arquivo *.env*
+#### - Faça a copia do arquivo *.env.example* como o seguinte comando:
+`cp .env.example .env`
+
+#### - Altere as seguinte linhas de acordo com suas definições no arquivo *.env*
 ```conf
 APP_NAME=#Coloque aqui o nome do seu projeto
 APP_URL=#Coloque aqui o IP da sua maquina virtual e a porta de acesso
@@ -27,7 +30,6 @@ DB_PASSWORD=db_password
 ```
 
 #### - No arquivo *docker-compoe.yml* altere as seguintes linhas conforme os dados inseridos nas linhas acima
-
 ```yml
 servieces:
     ports:
