@@ -28,7 +28,7 @@ services:
     ports:
       - 33069:3306
     volumes:
-      - db_data_portfolio:/var/lib/mysql
+      - db_data:/var/lib/mysql
     networks:
       - networkapp
 
@@ -50,4 +50,4 @@ networks:
   networkapp:
 
 volumes:
-  db_data_portfolio:
+  db_data:
