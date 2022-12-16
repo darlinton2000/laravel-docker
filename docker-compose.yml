@@ -4,6 +4,7 @@ services:
   nginx:
     image: nginx:stable-alpine
     container_name: nginx
+    restart: always
     ports:
       - 8000:80
     volumes:
