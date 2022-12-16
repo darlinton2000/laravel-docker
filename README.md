@@ -19,17 +19,17 @@
 `cp .env.example .env`
 
 #### - Altere as seguinte linhas de acordo com suas definições no arquivo *.env*
-```conf
-APP_NAME=#Coloque aqui o nome do seu projeto
-APP_URL=#Coloque aqui o IP da sua maquina virtual e a porta de acesso
-DB_HOST=#Coloque aqui o IP da sua maquina virtual
-DB_PORT=#Coloque a porta de acesso ao seu banco de dados aqui
+```Ruby
+APP_NAME=#nome do seu projeto
+APP_URL=#IP da maquina virtual e a porta de acesso
+DB_HOST=#IP da maquina virtual
+DB_PORT=#Porta de acesso ao banco de dados
 DB_DATABASE=name_database
 DB_USERNAME=db_user
 DB_PASSWORD=db_password
 ```
 
-#### - No arquivo *docker-compoe.yml* altere as seguintes linhas conforme os dados inseridos nas linhas acima
+#### - No arquivo *docker-compoe.yml* altere as seguintes linhas conforme os dados inseridos no *.env*
 ```yml
 servieces:
     ports:
