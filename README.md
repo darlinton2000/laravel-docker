@@ -3,7 +3,7 @@
 
 ## Este projeto é um template para projetos que necessitem usar Laravel + Docker
 
->Versão: 1.0
+>Versão: 1.0.1
 >
 >Autor: **[Danilo Ferreira Sousa](https://github.com/daniloferreirasousa)**
 >
